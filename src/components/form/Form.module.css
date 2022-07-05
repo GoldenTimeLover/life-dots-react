@@ -1,0 +1,18 @@
+
+
+.normal-input{
+
+}
+
+.normal-input > input, label{
+    display: block;
+}
+
+.normal-input input{
+    width: 180px;
+    height: 35px;
+    padding-right:20px;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

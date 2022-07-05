@@ -1,0 +1,60 @@
+.Ball {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+}
+
+.Ball::after{
+    content: attr(data-tool-tip);
+    display: block;
+    position: absolute;
+
+    padding: 1em;
+    color: #fff;
+    font-size: 0.75em;
+    bottom: 0;
+    left: -20px;
+    white-space: nowrap;
+    border-radius: 15px;
+    transform: scale(0);
+    background-color: #222;
+    transition: transform 0.3s ease-in-out,
+                bottom 0.3s ease-in-out;
+}
+
+
+
+.Ball:hover::after{
+    bottom: 100%;
+    transform: scale(1);
+}
+
+.Used {
+    background-color: grey;
+}
+
+.Current {
+    background-color: green;
+    animation-name: glow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+.Unused {
+    background-color: white;
+}
+
+.Special {
+    background-color: yellow;
+}
+
+@keyframes glow {
+    from {background-color: green;}
+    to {background-color: whitesmoke;}
+}

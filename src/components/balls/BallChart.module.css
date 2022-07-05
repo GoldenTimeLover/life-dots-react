@@ -1,0 +1,29 @@
+
+.BallChart{
+    
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(24, 24px);
+    grid-column-gap: 7px ;
+    grid-row-gap: 7px ;
+    justify-content:center;
+    align-content:space-around;
+    padding: 5px;
+
+}
+
+
+@media (max-width: 900px) {
+
+    .BallChart {
+         grid-template-columns: repeat(12, 25px); 
+        }
+  }
+
+
+@media (max-width: 600px) {
+    .BallChart {
+         grid-template-columns: repeat(12, 25px); 
+        }
+  }
