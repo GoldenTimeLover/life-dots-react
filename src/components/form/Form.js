@@ -27,7 +27,7 @@ const Form = (props) => {
   };
 
   return (
-    <form autoComplete="off"  action="" onSubmit={submitHandler}>
+    <form autoComplete="off"  action="" onSubmit={submitHandler} className={classes['form']}>
       <label htmlFor="country">Country:</label>
       <CountriesDropdown id="country" onSelect={handleSelect} />
 

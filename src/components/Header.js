@@ -13,7 +13,7 @@ const Header = (props) => {
 
   return (
     <div className={classes.header}>
-      <h1 className={classes.title}>The Tail End</h1>
+      <h1 className={classes.title}>Life Dots</h1>
       <h2 className={classes["secondary-title"]}>Your Life Visualized</h2>
       <Form onFormSubmit={onFormSubmit}/>
     </div>
