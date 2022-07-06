@@ -36,7 +36,7 @@ const Form = (props) => {
 
       <div className={classes["normal-input"]}>
         <label htmlFor="age">Age:</label>
-        <input autoComplete="false" ref={enteredAge} type="text" id="age" />
+        <input type="number"  autoComplete="false" ref={enteredAge}  id="age" />
       </div>
 
       <Button>Submit</Button>

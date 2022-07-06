@@ -1,0 +1,23 @@
+.timeline{
+    margin-top: 16px;
+    margin-right: 16px;
+    border-radius: 20px;
+    width: 6px;
+    background-color: white;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.year:first-child{
+    margin-top: -60px;
+}
+
+.year{
+
+
+    transform: rotate(-90deg);
+    margin-left:-50px;
+
+}

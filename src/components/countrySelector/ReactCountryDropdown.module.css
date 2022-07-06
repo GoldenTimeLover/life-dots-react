@@ -8,7 +8,7 @@
 }
 
 .dropdown {
-  background: rgb(231, 231, 231);
+  background: rgb(255, 255, 255);
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0);
   border-radius: 10px;
   display: flex;
@@ -30,7 +30,7 @@
   height: 0;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
-  border-top: 6px solid rgb(117, 117, 117);
+  border-top: 6px solid rgb(0, 0, 0);
   clear: both;
 }
 
@@ -60,18 +60,18 @@
 
 /* Track */
 .dropdown_items::-webkit-scrollbar-track {
-  background: #ffffff;
+  background: #000000;
 }
 
 /* Handle */
 .dropdown_items::-webkit-scrollbar-thumb {
-  background: #888;
+  background: rgb(0, 0, 0);
   border-radius: 2px;
 }
 
 /* Handle on hover */
 .dropdown_items::-webkit-scrollbar-thumb:hover {
-  background: #696969;
+  background: #000000;
 }
 
 
@@ -93,7 +93,7 @@
 .selected_country {
   font-size: 15px;
   font-weight: 500;
-  color: #484848;
+  color: #000000;
   margin-left: 5px;
 
 }

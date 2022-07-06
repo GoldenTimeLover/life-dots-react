@@ -6,7 +6,7 @@ html,body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #003059;
+  background-color: black;
   color: white;
   height:100vh;
   display:flex; 
@@ -21,3 +21,13 @@ html,body {
 
 
 
+.chart-wrapper::after{
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 300px;
+  margin-left: -3px;
+}

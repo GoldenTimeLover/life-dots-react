@@ -4,7 +4,7 @@ import { useState } from "react";
 import BallChart from "../components/balls/BallChart";
 import ChartHeader from "../components/chartHeader/ChartHeader";
 import { useTransition, animated } from "react-spring";
-import Footer from "../components/footer/Footer";
+
 
 const Home = () => {
   const [ballsMode, setBallsMode] = useState(false);
