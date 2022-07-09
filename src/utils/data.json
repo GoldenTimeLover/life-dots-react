@@ -1,607 +1,1217 @@
+
+
 [
-    {
+  {
       "Country": "Hong Kong",
-      "male": 82.2,
-      "female": 88.1
-    },
-    {
-      "Country": "Switzerland",
-      "male": 81.9,
-      "female": 85.6
-    },
-    {
+      "Both": "85.29",
+      "female": "88.17",
+      "male": "82.38"
+  },
+  {
       "Country": "Japan",
-      "male": 81.4,
-      "female": 87.5
-    },
-    {
-      "Country": "Singapore",
-      "male": 81.4,
-      "female": 85.7
-    },
-    {
-      "Country": "Sweden",
-      "male": 81.3,
-      "female": 84.7
-    },
-    {
+      "Both": "85.03",
+      "female": "88.09",
+      "male": "81.91"
+  },
+  {
       "Country": "Macao",
-      "male": 81.3,
-      "female": 87.2
-    },
-    {
-      "Country": "Norway",
-      "male": 81.2,
-      "female": 84.7
-    },
-    {
+      "Both": "84.68",
+      "female": "87.62",
+      "male": "81.73"
+  },
+  {
+      "Country": "Switzerland",
+      "Both": "84.25",
+      "female": "86.02",
+      "male": "82.42"
+  },
+  {
+      "Country": "Singapore",
+      "Both": "84.07",
+      "female": "86.15",
+      "male": "82.06"
+  },
+  {
       "Country": "Italy",
-      "male": 81.1,
-      "female": 85.4
-    },
-    {
-      "Country": "Israel",
-      "male": 81,
-      "female": 84.7
-    },
-    {
-      "Country": "Iceland",
-      "male": 81,
-      "female": 84.2
-    },
-    {
+      "Both": "84.01",
+      "female": "85.97",
+      "male": "81.9"
+  },
+  {
       "Country": "Spain",
-      "male": 80.9,
-      "female": 86.2
-    },
-    {
+      "Both": "83.99",
+      "female": "86.68",
+      "male": "81.27"
+  },
+  {
       "Country": "Australia",
-      "male": 80.9,
-      "female": 85
-    },
-    {
-      "Country": "Netherlands",
-      "male": 80.5,
-      "female": 83.6
-    },
-    {
-      "Country": "Ireland",
-      "male": 80.4,
-      "female": 84.3
-    },
-    {
-      "Country": "Luxembourg",
-      "male": 80.3,
-      "female": 84.7
-    },
-    {
+      "Both": "83.94",
+      "female": "85.8",
+      "male": "82.08"
+  },
+  {
+      "Country": "Channel Islands",
+      "Both": "83.6",
+      "female": "85.31",
+      "male": "81.82"
+  },
+  {
+      "Country": "Iceland",
+      "Both": "83.52",
+      "female": "84.9",
+      "male": "82.15"
+  },
+  {
       "Country": "South Korea",
-      "male": 80.3,
-      "female": 86.3
-    },
-    {
-      "Country": "Canada",
-      "male": 80,
-      "female": 84.2
-    },
-    {
-      "Country": "New Zealand",
-      "male": 80,
-      "female": 83.5
-    },
-    {
+      "Both": "83.5",
+      "female": "86.42",
+      "male": "80.46"
+  },
+  {
+      "Country": "Israel",
+      "Both": "83.49",
+      "female": "84.91",
+      "male": "81.98"
+  },
+  {
+      "Country": "Sweden",
+      "Both": "83.33",
+      "female": "84.97",
+      "male": "81.69"
+  },
+  {
       "Country": "France",
-      "male": 79.7,
-      "female": 85.6
-    },
-    {
-      "Country": "Belgium",
-      "male": 79.6,
-      "female": 84
-    },
-    {
-      "Country": "Austria",
-      "male": 79.5,
-      "female": 84.2
-    },
-    {
+      "Both": "83.13",
+      "female": "85.82",
+      "male": "80.32"
+  },
+  {
+      "Country": "Martinique",
+      "Both": "83.13",
+      "female": "86.1",
+      "male": "79.85"
+  },
+  {
+      "Country": "Malta",
+      "Both": "83.06",
+      "female": "84.68",
+      "male": "81.37"
+  },
+  {
+      "Country": "Canada",
+      "Both": "82.96",
+      "female": "84.74",
+      "male": "81.15"
+  },
+  {
+      "Country": "Norway",
+      "Both": "82.94",
+      "female": "84.78",
+      "male": "81.11"
+  },
+  {
+      "Country": "Ireland",
+      "Both": "82.81",
+      "female": "84.32",
+      "male": "81.29"
+  },
+  {
+      "Country": "New Zealand",
+      "Both": "82.8",
+      "female": "84.38",
+      "male": "81.2"
+  },
+  {
       "Country": "Greece",
-      "male": 79.5,
-      "female": 84.5
-    },
-    {
-      "Country": "United Kingdom",
-      "male": 79.4,
-      "female": 83.1
-    },
-    {
-      "Country": "Denmark",
-      "male": 79.3,
-      "female": 83.2
-    },
-    {
-      "Country": "Finland",
-      "male": 79.2,
-      "female": 84.5
-    },
-    {
-      "Country": "Qatar",
-      "male": 79.1,
-      "female": 82
-    },
-    {
-      "Country": "Germany",
-      "male": 78.6,
-      "female": 83.4
-    },
-    {
-      "Country": "Slovenia",
-      "male": 78.5,
-      "female": 84.2
-    },
-    {
-      "Country": "Bermuda",
-      "male": 78.1,
-      "female": 85.8
-    },
-    {
+      "Both": "82.8",
+      "female": "85.08",
+      "male": "80.52"
+  },
+  {
+      "Country": "Luxembourg",
+      "Both": "82.79",
+      "female": "84.76",
+      "male": "80.83"
+  },
+  {
+      "Country": "Netherlands",
+      "Both": "82.78",
+      "female": "84.35",
+      "male": "81.2"
+  },
+  {
+      "Country": "Guadeloupe",
+      "Both": "82.74",
+      "female": "85.94",
+      "male": "79.16"
+  },
+  {
       "Country": "Portugal",
-      "male": 78,
-      "female": 83.5
-    },
-    {
-      "Country": "Chile",
-      "male": 77.8,
-      "female": 82.4
-    },
-    {
+      "Both": "82.65",
+      "female": "85.28",
+      "male": "79.79"
+  },
+  {
+      "Country": "Finland",
+      "Both": "82.48",
+      "female": "85.14",
+      "male": "79.82"
+  },
+  {
+      "Country": "Belgium",
+      "Both": "82.17",
+      "female": "84.31",
+      "male": "80"
+  },
+  {
+      "Country": "Austria",
+      "Both": "82.05",
+      "female": "84.19",
+      "male": "79.88"
+  },
+  {
+      "Country": "Germany",
+      "Both": "81.88",
+      "female": "84.14",
+      "male": "79.62"
+  },
+  {
+      "Country": "Slovenia",
+      "Both": "81.85",
+      "female": "84.44",
+      "male": "79.26"
+  },
+  {
+      "Country": "United Kingdom",
+      "Both": "81.77",
+      "female": "83.28",
+      "male": "80.22"
+  },
+  {
+      "Country": "Réunion",
+      "Both": "81.55",
+      "female": "84.45",
+      "male": "78.52"
+  },
+  {
+      "Country": "Cyprus",
+      "Both": "81.51",
+      "female": "83.45",
+      "male": "79.55"
+  },
+  {
+      "Country": "Denmark",
+      "Both": "81.4",
+      "female": "83.27",
+      "male": "79.54"
+  },
+  {
+      "Country": "U.S. Virgin Islands",
+      "Both": "81.17",
+      "female": "83.52",
+      "male": "78.64"
+  },
+  {
+      "Country": "Taiwan",
+      "Both": "81.04",
+      "female": "83.64",
+      "male": "78.49"
+  },
+  {
       "Country": "Costa Rica",
-      "male": 77.7,
-      "female": 82.9
-    },
-    {
-      "Country": "United Arab Emirates",
-      "male": 77.3,
-      "female": 79.3
-    },
-    {
-      "Country": "Albania",
-      "male": 77,
-      "female": 80.2
-    },
-    {
-      "Country": "Cuba",
-      "male": 76.8,
-      "female": 80.8
-    },
-    {
+      "Both": "80.94",
+      "female": "83.39",
+      "male": "78.53"
+  },
+  {
+      "Country": "Chile",
+      "Both": "80.74",
+      "female": "82.8",
+      "male": "78.54"
+  },
+  {
+      "Country": "Guam",
+      "Both": "80.74",
+      "female": "83.98",
+      "male": "77.63"
+  },
+  {
+      "Country": "Qatar",
+      "Both": "80.73",
+      "female": "82.49",
+      "male": "79.78"
+  },
+  {
       "Country": "Puerto Rico",
-      "male": 76.5,
-      "female": 83.5
-    },
-    {
-      "Country": "Bahrain",
-      "male": 76.4,
-      "female": 78.4
-    },
-    {
-      "Country": "United States",
-      "male": 76.3,
-      "female": 81.4
-    },
-    {
-      "Country": "Czechia",
-      "male": 76.3,
-      "female": 82.1
-    },
-    {
-      "Country": "Algeria",
-      "male": 75.7,
-      "female": 78.1
-    },
-    {
-      "Country": "Iran",
-      "male": 75.6,
-      "female": 77.9
-    },
-    {
-      "Country": "Morocco",
-      "male": 75.4,
-      "female": 77.9
-    },
-    {
-      "Country": "Croatia",
-      "male": 75.4,
-      "female": 81.6
-    },
-    {
-      "Country": "Bosnia and Herzegovina",
-      "male": 74.9,
-      "female": 79.9
-    },
-    {
-      "Country": "China",
-      "male": 74.8,
-      "female": 79.2
-    },
-    {
-      "Country": "Kuwait",
-      "male": 74.8,
-      "female": 76.6
-    },
-    {
-      "Country": "Turkey",
-      "male": 74.7,
-      "female": 80.6
-    },
-    {
-      "Country": "Colombia",
-      "male": 74.5,
-      "female": 80
-    },
-    {
-      "Country": "Montenegro",
-      "male": 74.4,
-      "female": 79.3
-    },
-    {
-      "Country": "Estonia",
-      "male": 74.4,
-      "female": 82.8
-    },
-    {
-      "Country": "Ecuador",
-      "male": 74.3,
-      "female": 79.8
-    },
-    {
-      "Country": "Malaysia",
-      "male": 74.2,
-      "female": 78.3
-    },
-    {
+      "Both": "80.69",
+      "female": "83.92",
+      "male": "77.27"
+  },
+  {
+      "Country": "French Guiana",
+      "Both": "80.53",
+      "female": "83.38",
+      "male": "77.8"
+  },
+  {
+      "Country": "Maldives",
+      "Both": "79.89",
+      "female": "81.58",
+      "male": "78.53"
+  },
+  {
+      "Country": "Mayotte",
+      "Both": "79.85",
+      "female": "83.24",
+      "male": "76.62"
+  },
+  {
+      "Country": "Czech Republic (Czechia)",
+      "Both": "79.85",
+      "female": "82.35",
+      "male": "77.33"
+  },
+  {
+      "Country": "Barbados",
+      "Both": "79.64",
+      "female": "80.85",
+      "male": "78.36"
+  },
+  {
+      "Country": "Curaçao",
+      "Both": "79.41",
+      "female": "82.08",
+      "male": "76.42"
+  },
+  {
       "Country": "Poland",
-      "male": 74.1,
-      "female": 81.8
-    },
-    {
-      "Country": "Peru",
-      "male": 74.1,
-      "female": 79.5
-    },
-    {
-      "Country": "Saudi Arabia",
-      "male": 73.9,
-      "female": 76.8
-    },
-    {
-      "Country": "North Macedonia",
-      "male": 73.8,
-      "female": 77.8
-    },
-    {
-      "Country": "Sri Lanka",
-      "male": 73.6,
-      "female": 80.3
-    },
-    {
+      "Both": "79.27",
+      "female": "82.98",
+      "male": "75.51"
+  },
+  {
+      "Country": "Lebanon",
+      "Both": "79.27",
+      "female": "81.17",
+      "male": "77.53"
+  },
+  {
+      "Country": "Cuba",
+      "Both": "79.18",
+      "female": "81.12",
+      "male": "77.25"
+  },
+  {
+      "Country": "Estonia",
+      "Both": "79.18",
+      "female": "83.06",
+      "male": "74.98"
+  },
+  {
+      "Country": "United States",
+      "Both": "79.11",
+      "female": "81.65",
+      "male": "76.61"
+  },
+  {
+      "Country": "Panama",
+      "Both": "79.1",
+      "female": "82.2",
+      "male": "76.14"
+  },
+  {
+      "Country": "Croatia",
+      "Both": "79.02",
+      "female": "82.02",
+      "male": "75.95"
+  },
+  {
+      "Country": "Albania",
+      "Both": "78.96",
+      "female": "80.48",
+      "male": "77.48"
+  },
+  {
+      "Country": "Oman",
+      "Both": "78.58",
+      "female": "80.94",
+      "male": "76.9"
+  },
+  {
+      "Country": "United Arab Emirates",
+      "Both": "78.46",
+      "female": "79.8",
+      "male": "77.79"
+  },
+  {
+      "Country": "Turkey",
+      "Both": "78.45",
+      "female": "81.21",
+      "male": "75.57"
+  },
+  {
+      "Country": "Uruguay",
+      "Both": "78.43",
+      "female": "81.88",
+      "male": "74.75"
+  },
+  {
+      "Country": "French Polynesia",
+      "Both": "78.23",
+      "female": "80.41",
+      "male": "76.23"
+  },
+  {
+      "Country": "New Caledonia",
+      "Both": "78.16",
+      "female": "80.89",
+      "male": "75.61"
+  },
+  {
+      "Country": "Slovakia",
+      "Both": "78",
+      "female": "81.35",
+      "male": "74.59"
+  },
+  {
+      "Country": "Bosnia and Herzegovina",
+      "Both": "77.93",
+      "female": "80.32",
+      "male": "75.48"
+  },
+  {
+      "Country": "Colombia",
+      "Both": "77.87",
+      "female": "80.54",
+      "male": "75.18"
+  },
+  {
       "Country": "Thailand",
-      "male": 73.5,
-      "female": 80.9
-    },
-    {
-      "Country": "Argentina",
-      "male": 73.2,
-      "female": 80
-    },
-    {
-      "Country": "Serbia",
-      "male": 73.1,
-      "female": 78.4
-    },
-    {
-      "Country": "Honduras",
-      "male": 73,
-      "female": 77.6
-    },
-    {
+      "Both": "77.74",
+      "female": "81.34",
+      "male": "74.16"
+  },
+  {
+      "Country": "Bahrain",
+      "Both": "77.73",
+      "female": "78.88",
+      "male": "76.87"
+  },
+  {
+      "Country": "Ecuador",
+      "Both": "77.71",
+      "female": "80.45",
+      "male": "75.05"
+  },
+  {
+      "Country": "Sri Lanka",
+      "Both": "77.56",
+      "female": "80.74",
+      "male": "74.25"
+  },
+  {
+      "Country": "Algeria",
+      "Both": "77.5",
+      "female": "78.76",
+      "male": "76.3"
+  },
+  {
+      "Country": "Antigua and Barbuda",
+      "Both": "77.47",
+      "female": "78.58",
+      "male": "76.26"
+  },
+  {
+      "Country": "China",
+      "Both": "77.47",
+      "female": "79.73",
+      "male": "75.36"
+  },
+  {
+      "Country": "Peru",
+      "Both": "77.44",
+      "female": "80.15",
+      "male": "74.87"
+  },
+  {
+      "Country": "Morocco",
+      "Both": "77.43",
+      "female": "78.66",
+      "male": "76.17"
+  },
+  {
+      "Country": "Montenegro",
+      "Both": "77.39",
+      "female": "79.77",
+      "male": "74.99"
+  },
+  {
+      "Country": "Tunisia",
+      "Both": "77.36",
+      "female": "79.34",
+      "male": "75.37"
+  },
+  {
+      "Country": "Iran",
+      "Both": "77.33",
+      "female": "78.54",
+      "male": "76.22"
+  },
+  {
       "Country": "Hungary",
-      "male": 72.9,
-      "female": 79.3
-    },
-    {
-      "Country": "Jamaica",
-      "male": 72.9,
-      "female": 76.1
-    },
-    {
-      "Country": "Paraguay",
-      "male": 72.3,
-      "female": 76.4
-    },
-    {
+      "Both": "77.31",
+      "female": "80.66",
+      "male": "73.78"
+  },
+  {
+      "Country": "Argentina",
+      "Both": "77.17",
+      "female": "80.42",
+      "male": "73.82"
+  },
+  {
+      "Country": "Aruba",
+      "Both": "76.79",
+      "female": "79.1",
+      "male": "74.26"
+  },
+  {
+      "Country": "Saint Lucia",
+      "Both": "76.67",
+      "female": "78.06",
+      "male": "75.27"
+  },
+  {
+      "Country": "Malaysia",
+      "Both": "76.65",
+      "female": "78.78",
+      "male": "74.71"
+  },
+  {
       "Country": "Brazil",
-      "male": 72.2,
-      "female": 79.6
-    },
-    {
-      "Country": "Mexico",
-      "male": 72.2,
-      "female": 77.9
-    },
-    {
+      "Both": "76.57",
+      "female": "80.14",
+      "male": "73.01"
+  },
+  {
       "Country": "Romania",
-      "male": 71.8,
-      "female": 79.3
-    },
-    {
+      "Both": "76.5",
+      "female": "79.91",
+      "male": "73.13"
+  },
+  {
+      "Country": "Serbia",
+      "Both": "76.47",
+      "female": "79.05",
+      "male": "73.89"
+  },
+  {
       "Country": "Lithuania",
-      "male": 71.5,
-      "female": 81
-    },
-    {
-      "Country": "Bulgaria",
-      "male": 71.5,
-      "female": 78.5
-    },
-    {
-      "Country": "Guatemala",
-      "male": 71.4,
-      "female": 77.2
-    },
-    {
-      "Country": "Armenia",
-      "male": 71.3,
-      "female": 78.5
-    },
-    {
+      "Both": "76.41",
+      "female": "81.7",
+      "male": "70.97"
+  },
+  {
+      "Country": "Brunei ",
+      "Both": "76.35",
+      "female": "77.64",
+      "male": "75.17"
+  },
+  {
+      "Country": "North Macedonia",
+      "Both": "76.26",
+      "female": "78.32",
+      "male": "74.26"
+  },
+  {
+      "Country": "Syria",
+      "Both": "76.06",
+      "female": "79.11",
+      "male": "73.13"
+  },
+  {
+      "Country": "Honduras",
+      "Both": "75.87",
+      "female": "78.14",
+      "male": "73.57"
+  },
+  {
+      "Country": "Kuwait",
+      "Both": "75.85",
+      "female": "77.06",
+      "male": "75.09"
+  },
+  {
       "Country": "Vietnam",
-      "male": 71.3,
-      "female": 79.5
-    },
-    {
-      "Country": "Mauritius",
-      "male": 71.1,
-      "female": 77.6
-    },
-    {
-      "Country": "Bangladesh",
-      "male": 70.9,
-      "female": 74.6
-    },
-    {
+      "Both": "75.77",
+      "female": "79.85",
+      "male": "71.73"
+  },
+  {
       "Country": "Latvia",
-      "male": 70.8,
-      "female": 79.9
-    },
-    {
-      "Country": "Azerbaijan",
-      "male": 70.5,
-      "female": 75.5
-    },
-    {
-      "Country": "Kosovo",
-      "male": 70.3,
-      "female": 74.8
-    },
-    {
-      "Country": "Egypt",
-      "male": 69.7,
-      "female": 74.4
-    },
-    {
-      "Country": "Indonesia",
-      "male": 69.6,
-      "female": 74
-    },
-    {
-      "Country": "Georgia",
-      "male": 69.3,
-      "female": 78.1
-    },
-    {
+      "Both": "75.73",
+      "female": "80.37",
+      "male": "70.81"
+  },
+  {
+      "Country": "Saudi Arabia",
+      "Both": "75.69",
+      "female": "77.37",
+      "male": "74.47"
+  },
+  {
+      "Country": "Armenia",
+      "Both": "75.55",
+      "female": "78.9",
+      "male": "71.82"
+  },
+  {
+      "Country": "Mauritius",
+      "Both": "75.51",
+      "female": "78.92",
+      "male": "72.21"
+  },
+  {
+      "Country": "Bulgaria",
+      "Both": "75.49",
+      "female": "79.06",
+      "male": "72.05"
+  },
+  {
+      "Country": "Mexico",
+      "Both": "75.41",
+      "female": "78.17",
+      "male": "72.62"
+  },
+  {
+      "Country": "Nicaragua",
+      "Both": "75.23",
+      "female": "78.65",
+      "male": "71.75"
+  },
+  {
       "Country": "Belarus",
-      "male": 69.3,
-      "female": 79.4
-    },
-    {
-      "Country": "Nepal",
-      "male": 69.3,
-      "female": 72.2
-    },
-    {
-      "Country": "Kazakhstan",
-      "male": 68.8,
-      "female": 77.3
-    },
-    {
-      "Country": "Bolivia",
-      "male": 68.7,
-      "female": 74.5
-    },
-    {
-      "Country": "North Korea",
-      "male": 68.6,
-      "female": 75.7
-    },
-    {
-      "Country": "India",
-      "male": 68.5,
-      "female": 71
-    },
-    {
+      "Both": "75.2",
+      "female": "79.9",
+      "male": "70.15"
+  },
+  {
+      "Country": "Belize",
+      "Both": "75.09",
+      "female": "78.25",
+      "male": "72.14"
+  },
+  {
+      "Country": "Guatemala",
+      "Both": "75.05",
+      "female": "77.89",
+      "male": "72.14"
+  },
+  {
+      "Country": "Jordan",
+      "Both": "75.01",
+      "female": "76.82",
+      "male": "73.28"
+  },
+  {
+      "Country": "Jamaica",
+      "Both": "74.88",
+      "female": "76.6",
+      "male": "73.17"
+  },
+  {
+      "Country": "Dominican Republic",
+      "Both": "74.65",
+      "female": "77.9",
+      "male": "71.58"
+  },
+  {
+      "Country": "State of Palestine",
+      "Both": "74.62",
+      "female": "76.38",
+      "male": "72.92"
+  },
+  {
+      "Country": "Paraguay",
+      "Both": "74.59",
+      "female": "76.78",
+      "male": "72.55"
+  },
+  {
+      "Country": "Bahamas",
+      "Both": "74.28",
+      "female": "76.51",
+      "male": "71.95"
+  },
+  {
+      "Country": "Georgia",
+      "Both": "74.24",
+      "female": "78.54",
+      "male": "69.85"
+  },
+  {
+      "Country": "Micronesia",
+      "Both": "74.08",
+      "female": "77.2",
+      "male": "71.14"
+  },
+  {
       "Country": "El Salvador",
-      "male": 68.5,
-      "female": 77.8
-    },
-    {
-      "Country": "Venezuela",
-      "male": 68.3,
-      "female": 76
-    },
-    {
+      "Both": "74.06",
+      "female": "78.48",
+      "male": "69.27"
+  },
+  {
+      "Country": "Trinidad and Tobago",
+      "Both": "73.91",
+      "female": "76.66",
+      "male": "71.24"
+  },
+  {
+      "Country": "Kazakhstan",
+      "Both": "73.9",
+      "female": "77.97",
+      "male": "69.55"
+  },
+  {
+      "Country": "Samoa",
+      "Both": "73.75",
+      "female": "75.97",
+      "male": "71.69"
+  },
+  {
+      "Country": "Seychelles",
+      "Both": "73.74",
+      "female": "77.71",
+      "male": "70.26"
+  },
+  {
+      "Country": "Cabo Verde",
+      "Both": "73.58",
+      "female": "76.83",
+      "male": "70.15"
+  },
+  {
+      "Country": "Bangladesh",
+      "Both": "73.57",
+      "female": "75.6",
+      "male": "71.8"
+  },
+  {
+      "Country": "Libya",
+      "Both": "73.44",
+      "female": "76.46",
+      "male": "70.61"
+  },
+  {
+      "Country": "Solomon Islands",
+      "Both": "73.38",
+      "female": "75.31",
+      "male": "71.6"
+  },
+  {
+      "Country": "Azerbaijan",
+      "Both": "73.33",
+      "female": "75.87",
+      "male": "70.76"
+  },
+  {
       "Country": "Russia",
-      "male": 68.2,
-      "female": 78.2
-    },
-    {
-      "Country": "Cambodia",
-      "male": 67.5,
-      "female": 71.9
-    },
-    {
-      "Country": "Timor-Leste",
-      "male": 67.5,
-      "female": 71.6
-    },
-    {
-      "Country": "Philippines",
-      "male": 67.3,
-      "female": 75.5
-    },
-    {
+      "Both": "72.99",
+      "female": "78.15",
+      "male": "67.62"
+  },
+  {
+      "Country": "St. Vincent & Grenadines",
+      "Both": "72.98",
+      "female": "75.62",
+      "male": "70.66"
+  },
+  {
+      "Country": "North Korea",
+      "Both": "72.89",
+      "female": "76.37",
+      "male": "69.26"
+  },
+  {
+      "Country": "Bhutan",
+      "Both": "72.77",
+      "female": "73.33",
+      "male": "72.27"
+  },
+  {
+      "Country": "Grenada",
+      "Both": "72.59",
+      "female": "75.16",
+      "male": "70.24"
+  },
+  {
+      "Country": "Egypt",
+      "Both": "72.54",
+      "female": "74.95",
+      "male": "70.23"
+  },
+  {
       "Country": "Ukraine",
-      "male": 66.9,
-      "female": 77
-    },
-    {
-      "Country": "Pakistan",
-      "male": 66.3,
-      "female": 68.3
-    },
-    {
+      "Both": "72.5",
+      "female": "77.27",
+      "male": "67.56"
+  },
+  {
+      "Country": "Bolivia",
+      "Both": "72.35",
+      "female": "75.35",
+      "male": "69.5"
+  },
+  {
+      "Country": "Venezuela",
+      "Both": "72.34",
+      "female": "76.25",
+      "male": "68.59"
+  },
+  {
+      "Country": "Indonesia",
+      "Both": "72.32",
+      "female": "74.64",
+      "male": "70.12"
+  },
+  {
+      "Country": "Moldova",
+      "Both": "72.3",
+      "female": "76.53",
+      "male": "68.02"
+  },
+  {
+      "Country": "Suriname",
+      "Both": "72.13",
+      "female": "75.55",
+      "male": "68.88"
+  },
+  {
+      "Country": "Uzbekistan",
+      "Both": "72.04",
+      "female": "74.26",
+      "male": "69.8"
+  },
+  {
+      "Country": "Kyrgyzstan",
+      "Both": "71.95",
+      "female": "76.03",
+      "male": "67.85"
+  },
+  {
+      "Country": "Tajikistan",
+      "Both": "71.76",
+      "female": "74.11",
+      "male": "69.5"
+  },
+  {
+      "Country": "Nepal",
+      "Both": "71.74",
+      "female": "73.23",
+      "male": "70.13"
+  },
+  {
+      "Country": "Philippines",
+      "Both": "71.66",
+      "female": "75.92",
+      "male": "67.67"
+  },
+  {
+      "Country": "Tonga",
+      "Both": "71.32",
+      "female": "73.38",
+      "male": "69.28"
+  },
+  {
+      "Country": "Western Sahara",
+      "Both": "71.08",
+      "female": "73.19",
+      "male": "69.36"
+  },
+  {
+      "Country": "Iraq",
+      "Both": "71.08",
+      "female": "73.21",
+      "male": "68.96"
+  },
+  {
+      "Country": "Sao Tome & Principe",
+      "Both": "71.01",
+      "female": "73.5",
+      "male": "68.54"
+  },
+  {
+      "Country": "Vanuatu",
+      "Both": "70.99",
+      "female": "72.75",
+      "male": "69.4"
+  },
+  {
+      "Country": "Cambodia",
+      "Both": "70.54",
+      "female": "72.69",
+      "male": "68.2"
+  },
+  {
       "Country": "Mongolia",
-      "male": 65.8,
-      "female": 74.1
-    },
-    {
+      "Both": "70.53",
+      "female": "74.79",
+      "male": "66.43"
+  },
+  {
+      "Country": "India",
+      "Both": "70.42",
+      "female": "71.8",
+      "male": "69.16"
+  },
+  {
+      "Country": "Guyana",
+      "Both": "70.26",
+      "female": "73.53",
+      "male": "67.22"
+  },
+  {
+      "Country": "Timor-Leste",
+      "Both": "70.18",
+      "female": "72.36",
+      "male": "68.14"
+  },
+  {
+      "Country": "Rwanda",
+      "Both": "70",
+      "female": "72.16",
+      "male": "67.75"
+  },
+  {
+      "Country": "Botswana",
+      "Both": "69.86",
+      "female": "72.69",
+      "male": "66.72"
+  },
+  {
+      "Country": "Kiribati",
+      "Both": "69.17",
+      "female": "73.12",
+      "male": "65"
+  },
+  {
+      "Country": "Laos",
+      "Both": "68.89",
+      "female": "70.79",
+      "male": "67.04"
+  },
+  {
       "Country": "Senegal",
-      "male": 65.8,
-      "female": 69.9
-    },
-    {
-      "Country": "Fiji",
-      "male": 65.7,
-      "female": 69.3
-    },
-    {
+      "Both": "68.87",
+      "female": "70.88",
+      "male": "66.64"
+  },
+  {
+      "Country": "Turkmenistan",
+      "Both": "68.63",
+      "female": "72.19",
+      "male": "65.1"
+  },
+  {
+      "Country": "Micronesia",
+      "Both": "68.27",
+      "female": "70.07",
+      "male": "66.54"
+  },
+  {
       "Country": "Madagascar",
-      "male": 65.4,
-      "female": 68.7
-    },
-    {
+      "Both": "68.21",
+      "female": "69.92",
+      "male": "66.53"
+  },
+  {
+      "Country": "Fiji",
+      "Both": "67.91",
+      "female": "69.97",
+      "male": "66"
+  },
+  {
+      "Country": "Djibouti",
+      "Both": "67.87",
+      "female": "70.16",
+      "male": "65.84"
+  },
+  {
       "Country": "Ethiopia",
-      "male": 64.7,
-      "female": 68.5
-    },
-    {
-      "Country": "Yemen",
-      "male": 64.4,
-      "female": 67.8
-    },
-    {
+      "Both": "67.81",
+      "female": "69.8",
+      "male": "65.86"
+  },
+  {
+      "Country": "Pakistan",
+      "Both": "67.79",
+      "female": "68.9",
+      "male": "66.77"
+  },
+  {
+      "Country": "Myanmar",
+      "Both": "67.78",
+      "female": "70.81",
+      "male": "64.65"
+  },
+  {
+      "Country": "Eritrea",
+      "Both": "67.48",
+      "female": "69.75",
+      "male": "65.26"
+  },
+  {
       "Country": "Kenya",
-      "male": 64.3,
-      "female": 69
-    },
-    {
-      "Country": "Burma",
-      "male": 64,
-      "female": 70.1
-    },
-    {
+      "Both": "67.47",
+      "female": "69.87",
+      "male": "65.04"
+  },
+  {
+      "Country": "Gabon",
+      "Both": "67.03",
+      "female": "69.27",
+      "male": "64.93"
+  },
+  {
+      "Country": "Yemen",
+      "Both": "66.44",
+      "female": "68.16",
+      "male": "64.72"
+  },
+  {
+      "Country": "Tanzania",
+      "Both": "66.39",
+      "female": "68.25",
+      "male": "64.52"
+  },
+  {
       "Country": "Sudan",
-      "male": 63.5,
-      "female": 67.2
-    },
-    {
+      "Both": "66.09",
+      "female": "68.03",
+      "male": "64.18"
+  },
+  {
       "Country": "Afghanistan",
-      "male": 63.4,
-      "female": 66.4
-    },
-    {
-      "Country": "Ghana",
-      "male": 63,
-      "female": 65.2
-    },
-    {
+      "Both": "65.98",
+      "female": "67.59",
+      "male": "64.47"
+  },
+  {
+      "Country": "Malawi",
+      "Both": "65.62",
+      "female": "68.77",
+      "male": "62.45"
+  },
+  {
+      "Country": "Mauritania",
+      "Both": "65.57",
+      "female": "67.24",
+      "male": "63.88"
+  },
+  {
+      "Country": "Papua New Guinea",
+      "Both": "65.22",
+      "female": "66.62",
+      "male": "63.92"
+  },
+  {
+      "Country": "Congo",
+      "Both": "65.21",
+      "female": "66.73",
+      "male": "63.67"
+  },
+  {
+      "Country": "Comoros",
+      "Both": "65.03",
+      "female": "66.88",
+      "male": "63.24"
+  },
+  {
+      "Country": "Liberia",
+      "Both": "65",
+      "female": "66.48",
+      "male": "63.54"
+  },
+  {
       "Country": "Haiti",
-      "male": 61.8,
-      "female": 66.2
-    },
-    {
-      "Country": "Niger",
-      "male": 61.3,
-      "female": 63.6
-    },
-    {
-      "Country": "Zambia",
-      "male": 60.8,
-      "female": 66.9
-    },
-    {
+      "Both": "64.99",
+      "female": "67.21",
+      "male": "62.77"
+  },
+  {
+      "Country": "Ghana",
+      "Both": "64.94",
+      "female": "66.13",
+      "male": "63.78"
+  },
+  {
       "Country": "South Africa",
-      "male": 60.7,
-      "female": 67.7
-    },
-    {
+      "Both": "64.88",
+      "female": "68.42",
+      "male": "61.46"
+  },
+  {
+      "Country": "Namibia",
+      "Both": "64.86",
+      "female": "67.67",
+      "male": "61.83"
+  },
+  {
+      "Country": "Zambia",
+      "Both": "64.7",
+      "female": "67.71",
+      "male": "61.66"
+  },
+  {
+      "Country": "Uganda",
+      "Both": "64.38",
+      "female": "66.67",
+      "male": "61.99"
+  },
+  {
+      "Country": "Niger",
+      "Both": "63.62",
+      "female": "64.89",
+      "male": "62.41"
+  },
+  {
       "Country": "Gambia",
-      "male": 60.7,
-      "female": 63.5
-    },
-    {
-      "Country": "Zimbabwe",
-      "male": 59.8,
-      "female": 62.9
-    },
-    {
-      "Country": "Congo (Dem. Republic)",
-      "male": 59.1,
-      "female": 62.2
-    },
-    {
+      "Both": "63.26",
+      "female": "64.73",
+      "male": "61.8"
+  },
+  {
+      "Country": "Burkina Faso",
+      "Both": "62.98",
+      "female": "63.78",
+      "male": "62.06"
+  },
+  {
+      "Country": "Benin",
+      "Both": "62.84",
+      "female": "64.45",
+      "male": "61.23"
+  },
+  {
+      "Country": "Burundi",
+      "Both": "62.71",
+      "female": "64.56",
+      "male": "60.85"
+  },
+  {
+      "Country": "Guinea",
+      "Both": "62.64",
+      "female": "63.25",
+      "male": "61.79"
+  },
+  {
       "Country": "Angola",
-      "male": 58.4,
-      "female": 64
-    },
-    {
-      "Country": "Cameroon",
-      "male": 58,
-      "female": 60.6
-    },
-    {
+      "Both": "62.22",
+      "female": "65.12",
+      "male": "59.46"
+  },
+  {
+      "Country": "Zimbabwe",
+      "Both": "62.16",
+      "female": "63.66",
+      "male": "60.39"
+  },
+  {
+      "Country": "Togo",
+      "Both": "62.13",
+      "female": "63.08",
+      "male": "61.16"
+  },
+  {
       "Country": "Mozambique",
-      "male": 57.8,
-      "female": 63.7
-    },
-    {
+      "Both": "62.13",
+      "female": "64.95",
+      "male": "59.05"
+  },
+  {
+      "Country": "DR Congo",
+      "Both": "61.6",
+      "female": "63.21",
+      "male": "60.01"
+  },
+  {
+      "Country": "Eswatini",
+      "Both": "61.05",
+      "female": "65.67",
+      "male": "56.98"
+  },
+  {
+      "Country": "Mali",
+      "Both": "60.54",
+      "female": "61.39",
+      "male": "59.69"
+  },
+  {
+      "Country": "Cameroon",
+      "Both": "60.32",
+      "female": "61.66",
+      "male": "58.99"
+  },
+  {
       "Country": "Equatorial Guinea",
-      "male": 57.7,
-      "female": 59.9
-    },
-    {
-      "Country": "Ivory Coast",
-      "male": 56.6,
-      "female": 59.1
-    },
-    {
+      "Both": "59.82",
+      "female": "61.08",
+      "male": "58.76"
+  },
+  {
+      "Country": "Guinea-Bissau",
+      "Both": "59.38",
+      "female": "61.33",
+      "male": "57.31"
+  },
+  {
+      "Country": "Côte d'Ivoire",
+      "Both": "58.75",
+      "female": "60.13",
+      "male": "57.5"
+  },
+  {
+      "Country": "South Sudan",
+      "Both": "58.74",
+      "female": "60.31",
+      "male": "57.21"
+  },
+  {
       "Country": "Somalia",
-      "male": 55.7,
-      "female": 59.1
-    },
-    {
+      "Both": "58.34",
+      "female": "60.11",
+      "male": "56.62"
+  },
+  {
+      "Country": "Sierra Leone",
+      "Both": "55.92",
+      "female": "56.78",
+      "male": "55.01"
+  },
+  {
       "Country": "Nigeria",
-      "male": 53.8,
-      "female": 55.6
-    },
-    {
+      "Both": "55.75",
+      "female": "56.75",
+      "male": "54.8"
+  },
+  {
+      "Country": "Lesotho",
+      "Both": "55.65",
+      "female": "58.9",
+      "male": "52.52"
+  },
+  {
       "Country": "Chad",
-      "male": 52.8,
-      "female": 55.7
-    },
-    {
-      "Country": "Central Africa",
-      "male": 51.1,
-      "female": 55.5
-    }
-  ]
+      "Both": "55.17",
+      "female": "56.65",
+      "male": "53.73"
+  },
+  {
+      "Country": "Central African Republic",
+      "Both": "54.36",
+      "female": "56.58",
+      "male": "52.16"
+  }
+]
+

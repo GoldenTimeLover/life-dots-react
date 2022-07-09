@@ -16,14 +16,14 @@
 @media (max-width: 900px) {
 
     .BallChart {
-         grid-template-columns: repeat(12, 25px); 
+         grid-template-columns: repeat(9, 24px); 
         }
   }
 
 
 @media (max-width: 600px) {
     .BallChart {
-         grid-template-columns: repeat(12, 25px); 
+      grid-template-columns: repeat(9, 24px); 
         }
   }
 

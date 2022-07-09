@@ -53,7 +53,7 @@ const BallChart = (props) => {
 
   for (let i = 0; i < props.amount; i++) {
     let status = i < props.currentAge ? "Used" : "Unused";
-    let msg = `${i + 1} Months`;
+    let msg = `${((i + 1)/12).toFixed(1)} Years`;
 
     if (i === parseInt(props.currentAge)) {
       status = "Current";
@@ -71,7 +71,7 @@ const BallChart = (props) => {
       msg = "🪦💀";
     }
     if(i !== 0){
-      balls.push(<Ball key={i} status={status} index={i} msg={msg}/>);
+      balls.push(<Ball key={i} status={status} index={i} msg={msg} />);
     }else{
       status.concat(" chart-wrapper")
       balls.push(<Ball key={i} status={status} index={i} msg={msg}/>);

@@ -7,7 +7,21 @@
     padding: 0;
     cursor: pointer;
     position: relative;
+    /* animation: dropIn 0.05s ease forwards;
+    animation-delay: calc(var(--order) * 20ms);
+    opacity: 0; */
 }
+/* animation that doesn't look very good */
+/* @keyframes dropIn {
+    from {
+     opacity: 0;
+     transform:translate(+25%, +25%) scale(1);
+    }
+    to {
+      opacity: 1;
+      transform:translate(0, 0) scale(1);
+    }
+  } */
 
 .Ball::after{
     content: attr(data-tool-tip);
@@ -18,8 +32,8 @@
     color: #fff;
     font-size: 0.75em;
     bottom: 0;
-    left: -20px;
-    white-space: nowrap;
+    left: -30px;
+    white-space: pre-wrap;
     border-radius: 15px;
     transform: scale(0);
     background-color: #222;

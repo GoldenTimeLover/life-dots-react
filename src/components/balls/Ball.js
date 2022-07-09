@@ -7,7 +7,7 @@ const Ball = (props) => {
 
   const status = styles[props.status];
   return (
-    <div className={`${styles.Ball} ${status}`} data-tool-tip={props.msg}></div>
+    <div className={`${styles.Ball} ${status}`} data-tool-tip={props.msg} style={{"--order" : props.index}}></div>
   )
 }
 

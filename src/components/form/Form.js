@@ -3,19 +3,37 @@ import CountriesDropdown from "../countrySelector/CountriesDropdown";
 import GenderSelector from "../genderSelector/GenderSelector";
 import classes from "./Form.module.css";
 import Button from "../UI/Button";
-import { useRef } from "react";
+import { useState, useEffect } from "react";
 
 const Form = (props) => {
-  const [formValid, setFormValid] = React.useState(false);
-  const [enteredCountry, setEnteredCountry] = React.useState("");
-  const [enteredGender, setEnteredGender] = React.useState("");
+  const [enteredCountry, setEnteredCountry] = useState("");
+  const [countryValid, setCountryValid] = useState(false);
 
-  const enteredAge = useRef(0);
+  const [enteredGender, setEnteredGender] = useState("");
+  const [genderValid, setGenderValid] = useState(false);
 
+  const [age, setAge] = useState("");
+  const [ageValid, setAgeValid] = useState(false);
+
+  const [formValid, setFormValid] = useState(false);
+
+  useEffect(() => {
+      setCountryValid(enteredCountry !== "" && enteredCountry !== "Select Country" 
+      && enteredCountry !== null && enteredCountry !== undefined);
+
+      setGenderValid(enteredGender !== "" && enteredGender !== "Select Country" 
+      && enteredGender !== null && enteredGender !== undefined);
+
+      setAgeValid(!isNaN(age)&&age > 0 && age % 1 === 0);
+
+      setFormValid(countryValid && genderValid && ageValid);
+
+  }, [enteredCountry, enteredGender, age, countryValid, genderValid, ageValid]);
   const submitHandler = (event) => {
     event.preventDefault();
-    props.onFormSubmit(enteredCountry,enteredGender,enteredAge.current.value);
-
+    if (formValid) {
+      props.onFormSubmit(enteredCountry, enteredGender, age);
+    }
   };
 
   const handleSelect = (option, type) => {
@@ -25,9 +43,17 @@ const Form = (props) => {
       setEnteredGender(option);
     }
   };
+  const ageChangeHandler = (event) => {
+    setAge(event.target.value);
+  }
 
   return (
-    <form autoComplete="off"  action="" onSubmit={submitHandler} className={classes['form']}>
+    <form
+      autoComplete="off"
+      action=""
+      onSubmit={submitHandler}
+      className={classes["form"]}
+    >
       <label htmlFor="country">Country:</label>
       <CountriesDropdown id="country" onSelect={handleSelect} />
 
@@ -36,7 +62,7 @@ const Form = (props) => {
 
       <div className={classes["normal-input"]}>
         <label htmlFor="age">Age:</label>
-        <input type="number"  autoComplete="false" ref={enteredAge}  id="age" />
+        <input type="number" autoComplete="false" value={age} onChange={ageChangeHandler} id="age" />
       </div>
 
       <Button>Submit</Button>

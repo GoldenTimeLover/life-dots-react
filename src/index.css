@@ -31,3 +31,16 @@ html,body {
   left: 300px;
   margin-left: -3px;
 }
+
+a{
+  color: rgb(175, 108, 235);
+  text-decoration: none;
+}
+
+h1{
+  font-size: 100px;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-align: center;
+
+}
