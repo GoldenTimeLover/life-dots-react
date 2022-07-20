@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className={classes.footer}>
       <p className={classes["text-footer"]}>Life Dots</p>
-      <p style={{width : "80%", textAlign:"center"}}>
+      <p style={{ width: "80%", textAlign: "center" }}>
         Data Based on{" "}
         <a
           target={"_blank"}
@@ -15,16 +15,29 @@ const Footer = () => {
           U.N Population Division estimates
         </a>
       </p>
+
       <div style={{ fontSize: "small" }}>
         <i>
           Copyright ©2022{" "}
-          <a href="https://projectsafoot.com" target={"_blank"} rel="noreferrer">
+          <a
+            href="https://projectsafoot.com"
+            target={"_blank"}
+            rel="noreferrer"
+          >
             www.projectsafoot.com🦶
           </a>
         </i>
-
-
-
+      </div>
+      <div style={{ fontSize: "small" }}>
+        <i>
+          <a
+            href="https://projectsafoot.com"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            Github repo{" "}
+          </a>
+        </i>
       </div>
     </footer>
   );

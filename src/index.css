@@ -1,28 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-html,body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap");
+html,
+body {
   margin: 0;
-  font-family: 'Varela Round','Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Poppins", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
   color: white;
-  height:100vh;
-  display:flex; 
-  flex-direction:column; 
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 #root {
   height: 100vh;
-  display:flex; 
-  flex-direction:column; 
+  display: flex;
+  flex-direction: column;
 }
 
-
-
-.chart-wrapper::after{
-  content: '';
+.chart-wrapper::after {
+  content: "";
   position: absolute;
   width: 6px;
   background-color: white;
@@ -32,15 +30,36 @@ html,body {
   margin-left: -3px;
 }
 
-a{
+a {
   color: rgb(175, 108, 235);
   text-decoration: none;
 }
 
-h1{
+h1 {
   font-size: 100px;
   font-weight: bold;
   margin-bottom: 0;
   text-align: center;
+}
 
+.myButton {
+  margin-top: 10px;
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
+  border: 0;
+  background: #55095f;
+  cursor: pointer;
+  color: white;
+}
+
+.myButton:hover {
+  margin-top: 10px;
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
+  border: 1px solid white;
+  background: #750c83;
+  cursor: pointer;
+  color: white;
 }

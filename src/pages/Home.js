@@ -13,6 +13,7 @@ const Home = () => {
   const [amount, setAmount] = useState(100);
   const [userData, setUserData] = useState({});
   const [countryDataForCards, setCountryDataForCards] = useState({});
+  const [copiedToClipboard, setCopiedToClipboard] = useState(false);
 
   const transition = useTransition(ballsMode, {
     from: { opacity: 0 },
@@ -32,17 +33,17 @@ const Home = () => {
         : gender.name === "Female"
         ? selectedCountry.female
         : (selectedCountry.female + selectedCountry.male) / 2;
-    
+
     setCountryDataForCards(selectedCountry);
     setAmount(Math.round(lifeExpectancy) * 12);
     setBallsMode(true);
-  
+
     setUserData({
       age: age,
-      country : country,
-      gender : gender,
-      lifeExpectancy : lifeExpectancy,
-    })
+      country: country,
+      gender: gender,
+      lifeExpectancy: lifeExpectancy,
+    });
   };
   return (
     // render Header only if ballsMode is false
@@ -52,17 +53,55 @@ const Home = () => {
       {transition(
         (style, item) =>
           item && (
-            <animated.div style={{...style, marginBottom: "20px "}}>
+            <animated.div style={{ ...style, marginBottom: "20px " }}>
               <ChartHeader userData={userData} />
               <BallChart amount={amount} currentAge={currentAge} />
               <div>
-                <h2 style={{textAlign : "center"}}>Global Life Expectancy </h2>
-                <Datacard both={73.2} females={75.6} males={70.8}/>
-                <h2 style={{textAlign : "center"}}>Life Expectancy in {userData.country.name}</h2>
-                <Datacard both={countryDataForCards.Both} females={countryDataForCards.female} males={countryDataForCards.male}/>
+                <h2 style={{ textAlign: "center" }}>Global Life Expectancy </h2>
+                <Datacard both={73.2} females={75.6} males={70.8} />
+                <h2 style={{ textAlign: "center" }}>
+                  Life Expectancy in {userData.country.name}
+                </h2>
+                <Datacard
+                  both={countryDataForCards.Both}
+                  females={countryDataForCards.female}
+                  males={countryDataForCards.male}
+                />
               </div>
-              <div>
-              <TimeSpending />
+              <div style={{ padding: "20px" }}>
+                <TimeSpending userData={userData} />
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  padding: "20px",
+                }}
+              >
+                <h2>So Basically...</h2>
+                <p>Our time hear is finite so we should try and enjoy it (:</p>
+                <button
+                  onClick={() => {
+                    navigator.clipboard.writeText("https://life-dots.web.app");
+                    setCopiedToClipboard(true);
+                  }}
+                  className="myButton"
+                >
+                  Share ↗️
+                </button>
+                {copiedToClipboard && (
+                  <p style={{ color: "green" }}>Link copied To clipboard!</p>
+                )}
+                <button
+                  className="myButton"
+                  onClick={() => {
+                    window.location.reload();
+                  }}
+                >
+                  Try Again 🔄
+                </button>
               </div>
             </animated.div>
           )

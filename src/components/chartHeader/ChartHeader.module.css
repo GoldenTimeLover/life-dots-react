@@ -1,13 +1,13 @@
 .labels {
   list-style-type: none;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .container {
   display: flex;
   flex-direction: column;
- 
+
   align-items: center;
   padding: 0px;
   margin: 0px;
@@ -17,7 +17,6 @@
   padding: 5px;
   display: flex;
   gap: 5px;
-
 }
 
 .label {
@@ -26,6 +25,10 @@
 
 .content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 10px;
+}
+
+.content > div {
+  padding: 16px;
 }
