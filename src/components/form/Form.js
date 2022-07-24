@@ -18,16 +18,23 @@ const Form = (props) => {
   const [formValid, setFormValid] = useState(false);
 
   useEffect(() => {
-      setCountryValid(enteredCountry !== "" && enteredCountry !== "Select Country" 
-      && enteredCountry !== null && enteredCountry !== undefined);
+    setCountryValid(
+      enteredCountry !== "" &&
+        enteredCountry !== "Select Country" &&
+        enteredCountry !== null &&
+        enteredCountry !== undefined
+    );
 
-      setGenderValid(enteredGender !== "" && enteredGender !== "Select Country" 
-      && enteredGender !== null && enteredGender !== undefined);
+    setGenderValid(
+      enteredGender !== "" &&
+        enteredGender !== "Select Country" &&
+        enteredGender !== null &&
+        enteredGender !== undefined
+    );
 
-      setAgeValid(!isNaN(age)&&age > 0 && age % 1 === 0);
+    setAgeValid(!isNaN(age) && age > 0 && age % 1 === 0);
 
-      setFormValid(countryValid && genderValid && ageValid);
-
+    setFormValid(countryValid && genderValid && ageValid);
   }, [enteredCountry, enteredGender, age, countryValid, genderValid, ageValid]);
   const submitHandler = (event) => {
     event.preventDefault();
@@ -45,7 +52,7 @@ const Form = (props) => {
   };
   const ageChangeHandler = (event) => {
     setAge(event.target.value);
-  }
+  };
 
   return (
     <form
@@ -62,7 +69,13 @@ const Form = (props) => {
 
       <div className={classes["normal-input"]}>
         <label htmlFor="age">Age:</label>
-        <input type="number" autoComplete="false" value={age} onChange={ageChangeHandler} id="age" />
+        <input
+          type="number"
+          autoComplete="false"
+          value={age}
+          onChange={ageChangeHandler}
+          id="age"
+        />
       </div>
 
       <Button>Submit</Button>

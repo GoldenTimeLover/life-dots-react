@@ -25,8 +25,24 @@ const ChartHeader = (props) => {
           </p>
           <p>
             This is of course a gross estimation! You may live much longer! In
-            fact life expectancy worldwide is going up!
+            fact{" "}
+            <a
+              href="https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates/ghe-life-expectancy-and-healthy-life-expectancy"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              life expectancy worldwide is going up!
+            </a>
           </p>
+          <div>
+            <h5 style={{ fontSize: "1.3rem" }}>
+              Below is a chart representing an estimation of the amount of time
+              a person your age from your country has to live.
+            </h5>
+            <p style={{ fontSize: "1.3rem" }}>
+              Each ball in the chart represents a month of life
+            </p>
+          </div>
         </div>
         <ul className={classes.labels}>
           <li className={classes.line}>
@@ -35,11 +51,11 @@ const ChartHeader = (props) => {
           </li>
           <li className={classes.line}>
             <Ball after={false} status={"Used"} />{" "}
-            <span className={classes.label}>Future</span>
+            <span className={classes.label}>Past</span>
           </li>
           <li className={classes.line}>
             <Ball after={false} status={"Unused"} />{" "}
-            <span className={classes.label}>Past</span>
+            <span className={classes.label}>Future</span>
           </li>
           <li className={classes.line}>
             <Ball after={false} status={"Special"} />{" "}

@@ -22,6 +22,12 @@ const Home = () => {
   });
 
   const onActivateBalls = (country, gender, age) => {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+
     setCurrentAge(age * 12);
     const allCountries = require("../utils/data");
     const selectedCountry = allCountries.find(
@@ -57,7 +63,9 @@ const Home = () => {
               <ChartHeader userData={userData} />
               <BallChart amount={amount} currentAge={currentAge} />
               <div>
-                <h2 style={{ textAlign: "center" }}>Global Life Expectancy </h2>
+                <h2 style={{ textAlign: "center" }}>
+                  Global Life Expectancy 🌍
+                </h2>
                 <Datacard both={73.2} females={75.6} males={70.8} />
                 <h2 style={{ textAlign: "center" }}>
                   Life Expectancy in {userData.country.name}
@@ -81,7 +89,11 @@ const Home = () => {
                 }}
               >
                 <h2>So Basically...</h2>
-                <p>Our time hear is finite so we should try and enjoy it (:</p>
+                <p>None of us know how many dots we have left.</p>
+                <p style={{ textAlign: "center" }}>
+                  Our time here is finite so we should at least try and enjoy it
+                  (:
+                </p>
                 <button
                   onClick={() => {
                     navigator.clipboard.writeText("https://life-dots.web.app");
@@ -98,6 +110,11 @@ const Home = () => {
                   className="myButton"
                   onClick={() => {
                     window.location.reload();
+                    window.scroll({
+                      top: 0,
+                      left: 0,
+                      behavior: "smooth",
+                    });
                   }}
                 >
                   Try Again 🔄

@@ -2,23 +2,17 @@ import React from "react";
 import { PieChart, Pie, Legend, Cell, Tooltip } from "recharts";
 
 export default function SpentChart({ userData }) {
-  const sleepingTotal = (userData.lifeExpectancy * 0.33).toFixed(1);
-  const alreadySlept = Math.round(userData.age * 0.33);
-
+  const lifeSpent = Math.floor((userData.age / userData.lifeExpectancy) * 100);
+  const timeRemain = 100 - lifeSpent;
+  const toSleep = Math.floor(timeRemain * 0.33);
+  const toSpend = Math.floor(timeRemain - toSleep);
   const data02 = [
-    { name: "% of life slept", value: alreadySlept / 100 },
-    { name: "% to be slept", value: (sleepingTotal - alreadySlept) / 100 },
-    { name: "% spent awake", value: (userData.age * 0.77) / 100 },
-    {
-      name: "% to be spent awake",
-      value:
-        ((userData.lifeExpectancy * 0.77).toFixed(1) -
-          (userData.age * 0.77).toFixed(1)) /
-        100,
-    },
+    { name: "% Time spent", value: lifeSpent },
+    { name: "% To be slept", value: toSleep },
+    { name: "%Time to spend", value: toSpend },
   ];
 
-  const COLORS = ["grey", "white", "darkgrey", "green"];
+  const COLORS = ["grey", "white", "green"];
   return (
     <PieChart width={500} height={350}>
       <Pie
